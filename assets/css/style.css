@@ -16,6 +16,10 @@ html{
 #header{
     height:46px;
     background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 #nav{
     display: inline-block;
@@ -82,7 +86,36 @@ html{
 } 
 
 #slider{
+    position: relative;
+    background-image: url("/assets/img/chicago.jpg");
+    overflow: hidden;
+    margin-top: 46px; /*make slider isnt cover by header*/
+    padding: 25% 0; /* make image always have widthxheight is 2:1*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+#slider .image-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 47px;
+    text-align: center;
+    color: #fff;
+}
+
+#slider .heading-text{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+#slider .description-text{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 23px;
+}
+
 
 #content{
 
