@@ -8,9 +8,9 @@ html{
     font-family: "Lato", sans-serif;
 }
 
-#main{
+/* #main{
     
-}
+} */
 
 .clear{
     clear: both;
@@ -54,7 +54,7 @@ html{
 #nav>li:hover>a, #nav .subnav li:hover a{
     color: #000;
     background-color: #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 #nav>li:hover .subnav{
     display: block;
@@ -66,7 +66,7 @@ html{
     left: 0;
     background-color: #fff; 
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.46);
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 #nav .subnav a{
@@ -127,9 +127,9 @@ html{
     padding-top: 23px;
 }
 
-#content{
-
-}   
+/* #content{
+    
+}    */
 
 #content .content-section{
     max-width: 800px;
@@ -228,7 +228,70 @@ html{
     transform: translateY(-11%);
 }
 
-/* Contact Section */
-#footer{
+/* Places */
+.place-list{
+    margin: 32px -8px 0; 
+    
+}   
+
+.place-item{
+    float: left;
+    width: calc(100%/3);
+    padding: 0px 8px 40px;
+    line-height: 1.5;
+}
+
+.place-img{
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover{
+    opacity: 0.6;
+}
+
+.place-item-body{
+    background-color: #fff;
+    padding: 0.15px 16px;
+    font-size: 15px;
 
 }
+
+.place-heading{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 15px 0px;
+}
+
+.place-time{
+    color: #757575;
+    margin: 15px 0px;
+}
+
+.place-description{
+    margin: 15px 0px;
+}
+
+.buy-ticket-btn{
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0px 0px 16px;
+    display: inline-block;
+}
+
+.buy-ticket-btn:hover{
+    color: #000;
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+/* Contact Section */
+/* #footer{
+    
+} */
